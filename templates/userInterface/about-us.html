@@ -1,0 +1,545 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block meta_info %} 
+	<meta name="description"
+		content="Founded in 2009, Everymedia Technologies Pvt. Ltd. is one of India’s leading digital media tech companies. To know more, visit us online." />
+	<meta name="robots" content="index,follow" />
+	<link rel="canonical" href="{% url 'about' %}" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="About Everymedia Technologies" />
+	<meta property="og:description"
+		content="Founded in 2009, Everymedia Technologies Pvt. Ltd. is one of India’s leading digital media tech companies. To know more, visit us online." />
+	<meta property="og:url" content="https://www.everymedia.world/about-us/" />
+	<meta property="og:site_name" content="everymedia" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description"
+		content="Founded in 2009, Everymedia Technologies Pvt. Ltd. is one of India’s leading digital media tech companies. To know more, visit us online." />
+	<meta name="twitter:title" content="About Everymedia Technologies" />
+	<script type='application/ld+json'>
+		{
+			"@context": "http:\/\/schema.org",
+			"@type": "WebSite",
+			"@id": "#website",
+			"url": "https:\/\/www.everymedia.world\/",
+			"name": "everymedia",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https:\/\/www.everymedia.world\/?s={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+		}
+	</script>
+{% endblock meta_info %}
+
+{% block content %} 
+	{% include 'components/header.html' %}
+	<section class="aboutus_main">
+		<div class="about_bg">
+			<div class="about_container inner_heading" id="about_us">
+				<h2>About Us</h2>
+				<h3>With Advance skills, branding, marketing or content, we transform businesses through creativeness, technology and innovation!
+					We create passionate skills value input. </h3>
+				<div class="row">
+					<div class="col-sm-12 col-md-6">
+						<div class="about_data">
+							<p>Our idea is to make your vision come to life. For that to happen, we channel our mutual energy into boosting the various tools & technologies at our disposal and whipping up seamless online skills that take you to the next level.</p>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<div class="about_data">
+							<p>We believe in reality. People from all departments come together for plan, creativity and ground breaking thoughts. We design digital set-ups to deliver solutions across all customer connection points, which will satisfy consumer needs and surpass business aims.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about_process_container">
+			<div class="about_process">
+				<h2>Our Process</h2>
+				<h3>Every step is taken perfectly to give you an end product that’ll make you stand out a mile .</h3>
+				<div class="row">
+					<div class="">
+						<div class="first_block">
+							<div class="about_process_img">
+								<img src="{% static 'wp-content/uploads/2017/10/define.png' %}" class="img-responsive">
+							</div>
+							<h4>characterise</h4>
+							<p>From detailed digital and brand assessments to market research, competitor analysis and analytical reports, our comprehensive discovery process explores every opportunity for our clients. Based on this, we chalk out a plan-of-action apt for our client.</p>
+						</div>
+						<div class="first_block">
+							<div class="about_process_img">
+								<img src="{% static 'wp-content/uploads/2017/10/design.png' %}" class="img-responsive">
+							</div>
+							<h4>layout</h4>
+							<p>After thorough research and crafting multiple routes to reach maximum ROI, we execute the suitable plans in the form of engaging strategies.</p>
+						</div>
+						<div class="first_block">
+							<div class="about_process_img">
+								<img src="{% static 'wp-content/uploads/2017/10/deploy.png' %}" class="img-responsive">
+							</div>
+							<h4>utilise</h4>
+							<p>The launch of the project is just the start. Being a results-oriented company, we analyze and assess our results based on data.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="office_interiors_sec" id="office_interiors">
+			<div class="office_details_bg">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="interiors_info inner_heading">
+							<h2>#lifeatem</h2>
+							<p>IndianBrothers is a home to Data Scientists, Tech Architects and Creative Wizards who
+								come together to converse, ideate and work together. We love to revolutionize. We
+								push each other to grow. Together, we get results!</p>
+							<p>Following our CEO&#39;s vision, we make sure that our wheels never stop churning; we
+								make sure that our creativity sees no bounds. From hogging pizzas on late nights to
+								dancing through weekends, we are a team that does not believe in a 10-to-5 job.</p>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="life_at_em_cara">
+							<div class="interior_carousel">
+								<div class="owl-carousel  owl-theme common_carousel extra_carausel">
+									<div class="lifeatem"> 
+										<img src="{% static 'wp-content/themes/everymedia/images/img_8424.jpg' %}" alt=""
+											class="img-responsive"> </div>
+									<div class="lifeatem"> 
+										<img src="{% static 'wp-content/themes/everymedia/images/img_8425.jpg' %}" alt=""
+											class="img-responsive"> </div>
+									<div class="lifeatem"> 
+										<img src="{% static 'wp-content/themes/everymedia/images/img-20190320-wa0010.jpg' %}" alt=""
+											class="img-responsive"> </div>
+									<div class="lifeatem">
+										<div class="embed-responsive embed-responsive-16by9" id="video_lifeatem">
+											<iframe width="" height="" src="https://www.youtube.com/embed/DDNnFoCluG0?rel=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="em_awards">
+			<div class="em_awards_details">
+				<h3>Achievements</h3>
+				<h5>With our inception in 2010, we along<br />
+					with our partners and clients have bagged<br />
+					numerous awards in the social media space.</h5>
+				<h5><span>40+</span>Industry Awards</h5>
+			</div>
+			<div class="em_awards_pic">
+				<img src="{% static 'wp-content/uploads/2017/10/awards.jpg' %}" class="img-responsive">
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="our_client gray-thumb">
+			<h4>
+				our clients
+				<span></span>
+			</h4>
+			<div class="owl-carousel client_carousel owl-theme">
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/02_hyundai.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/02_hyundaimobis.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/03_tata_motors.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/09_siemens.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/14_bosch.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/05_suzlon.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/12/raymondlogo_colored.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/44_parx.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/12/raymonducodenimlogo_colored.png' %}"
+							class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/34_myntra.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/10_bowerbird.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/46_allaboutyou.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/23_hrx.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/13_tata_capital.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/10_hdfc_life.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/17_uti.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/11_kotak-life-insurance.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/40_destimoney.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/09/crisil.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/08_icici_securities.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/06_icici_foundation.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/07_icici_fellowship.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/38_yesfoundation.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/03_lll-foundation.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/04_river-march.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/08/01a_prime-focus-group.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/02_prime-focus-technologies.png' %}"
+							class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/02_prime-focus-world.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/08/btvilogo.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/42_eurostar.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/04_vfs.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/15_jetairtours.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/16_wns.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/27_magicholidays.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/47_singporeairlines.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/22_imagica.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/21_aquamagica.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/26_quicker.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/45_somaiya.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/12/frujuicyjellylogo_colored.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/05_waghbakri.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/24_aptech.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/43_godavari.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/36_arttdinox.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/35_candere.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/06_aparnatiles.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/12/metropolislogo_colored.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/41_als.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/19_fortis.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/12/sanofilogo_colored.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/12/jkbovagenixlogo_colored.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/51_shapooripallonji.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/33_piramal.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/49_palava.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/30_joyceehome.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/32_comart.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/09/aaailogo-1.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/37_dac.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/39_technopolis.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/01_zicomcare.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/29_dabangdelhi.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/28_dabangmumbai.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/31_mcl.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/12_reliance-mobile.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/18_nec.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/82_saregama.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/67_aaa.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/63_ngsi.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/55_viacom.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/12_skf.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/09/09_roykapoorfilms.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/09/07_manorrama-pic.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/54_foxstar.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/76_para.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/84_rsvp.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/72_sonypicture.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/14_emmay.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/11_zeetalent.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/58_zeetalkies.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/81_wb.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/52_dharmaproduction.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/53_yashraj.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/maikuchbhi-karsakti-hu.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/62_balaji.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/79_phantom.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/73_panorama.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/70_9xm.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/83_visheshfilms.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/85_skp.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/78_bombaytimes.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/75_mb.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2018/01/13_risingsun-1.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/57_erosnow.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/74_drishyam.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/71_9xmjalwa.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/64_sonymusic.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/80_vc.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/60_dar.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/59_pvr.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/61_ww.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/68_biscoot.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/69_biscoot.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/66_yomics.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/77_bombaytimes.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/86_agp.png' %}" class="img-responsive">
+					</div>
+				</div>
+				<div class="item">
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/10/65_y-films.png' %}" class="img-responsive">
+					</div>
+					<div class="client-item">
+						<img src="{% static 'wp-content/uploads/2017/12/pfilogo_colored.png' %}" class="img-responsive">
+					</div>
+				</div>
+			</div>
+	</section>
+</div>
+{% endblock content %}

@@ -1,0 +1,313 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block meta_info %}
+	<meta name="description"
+		content="We believe in not only meeting expectations but also exceeding them. We create experiences that people remember. We maximize your spends &amp; collaborate with you to make your strategies more effective." />
+	<meta name="robots" content="index,follow" />
+	<link rel="canonical" href="{% url 'expertise' %}" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Our Expertise | IndianBrothers Technologies" />
+	<meta property="og:description"
+		content="We believe in not only meeting expectations but also exceeding them. We create experiences that people remember. We maximize your spends &amp; collaborate with you to make your strategies more effective." />
+	<meta property="og:url" content="https://www.IndianBrothers.world/expertise/" />
+	<meta property="og:site_name" content="IndianBrothers" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description"
+		content="We believe in not only meeting expectations but also exceeding them. We create experiences that people remember. We maximize your spends &amp; collaborate with you to make your strategies more effective." />
+	<meta name="twitter:title" content="Our Expertise | IndianBrothers Technologies" />
+	<script type='application/ld+json'>
+		{
+			"@context": "http:\/\/schema.org",
+			"@type": "WebSite",
+			"@id": "#website",
+			"url": "https:\/\/www.IndianBrothers.world\/",
+			"name": "IndianBrothers",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https:\/\/www.IndianBrothers.world\/?s={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+		}
+	</script>
+{% endblock meta_info %}
+
+{% block content %}
+{% include 'components/header.html' %}
+<div class="em-container">
+	<section class="services_main">
+		<div class="inner_main">
+			<div class="container">
+				<div class="services_data inner_heading">
+					<h2>expertise</h2>
+					<div class="row">
+						<div class="col-sm-12">
+							<p>
+								We, at IndianBrothers, specialize in getting you out there! We may use tools like
+								end-to-end digital campaigns, eye-catching design and user-friendly technology, but
+								our ultimate expertise lies in backing creativity with data and tailoring our
+								services to your needs. We cater to all kinds of entities and work towards turning
+								your vision into reality, simultaneously realizing your clients’ vision as well.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="segment_expertise_sec sec">
+				<div class="container">
+					<div class="row">
+						<div class="ourexpertise_list" id="brands">
+							<div class="segment_details">
+								<div class="seg_top">
+									<img src="{% static 'wp-content/uploads/2017/10/brand.png' %}"
+										class="img-responsive">
+									<h5>brands &amp; corporates</h5>
+								</div>
+								<div class="seg_middle">
+									<div class="row">
+										<div class="col-sm-12 col-md-6">
+											<p>We believe that a brand is not defined as a product or a service but
+												by its identity and the perception that people have of it. With an
+												infusion of creativity and strategy, we change the way people look
+												at brands. We build thoughtful digital solutions that drive
+												engagement, build brand loyalty, increase profitability and acquire
+												new customers.
+											</p>
+										</div>
+										<div class="col-md-6 col-sm-12">
+											<div class="segment_main">
+												<ul class="segment_list">
+													<li>
+														Automobile </li>
+													<li>
+														Consumer Goods &amp; Services </li>
+													<li>
+														Education </li>
+													<li>
+														Energy </li>
+													<li>
+														Environment </li>
+													<li>
+														Financial Services </li>
+												</ul>
+											</div>
+											<div class="segment_main">
+												<ul class="segment_list">
+													<li>
+														Food &amp; Beverage </li>
+													<li>
+														Government </li>
+													<li>
+														Health &amp; Wellness </li>
+													<li>
+														Non-Profit </li>
+													<li>
+														Retail &amp; Hospitality </li>
+													<li>
+														Merchandise </li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-sm-12">
+											<div class="more_arictle">
+												<a href="{% url 'homepage' %}">
+													more case studies
+													<img src="{% static 'wp-content/themes/everymedia/images/arrow_right.png' %}"
+														class="img-responsive">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="ourexpertise_list" id="entertainment">
+							<div class="segment_details">
+								<div class="seg_top">
+									<img src="{% static 'wp-content/uploads/2017/10/entertainment_icon_mid.png' %}"
+										class="img-responsive">
+									<h5>entertainment</h5>
+								</div>
+								<div class="seg_middle">
+									<div class="row">
+										<div class="col-sm-12 col-md-6">
+											<p>Having worked with the top players in the media and entertainment
+												space, we realise the importance of infiltrating across all digital
+												spectrums. We don’t just create marketing campaigns, we grab
+												eyeballs! We make things go viral! We devise ways to engage with
+												different kinds of audience on different mediums. Having won several
+												awards for our work on films like Pink, Neerja and Tubelight to name
+												a few, we aim to hit the right spot with the audience! Right from
+												launching new channels to managing the social presence of famous
+												celebrities, we do everything.</p>
+										</div>
+										<div class="col-md-6 col-sm-12">
+											<div class="segment_main">
+												<ul class="segment_list">
+													<li>
+														Channels </li>
+													<li>
+														Celebrities </li>
+													<li>
+														Media Houses/Studios </li>
+													<li>
+														Movies </li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-sm-12">
+											<div class="more_arictle">
+												<a href="{% url 'homepage' %}">
+													more case studies
+													<img src="{% static 'wp-content/themes/everymedia/images/arrow_right.png' %}"
+														class="img-responsive">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="ourexpertise_list" id="research">
+							<div class="segment_details">
+								<div class="seg_top">
+									<img src="{% static 'wp-content/uploads/2017/10/public_research_icon_mid.png' %}"
+										class="img-responsive">
+									<h5>public research &amp; politics</h5>
+								</div>
+								<div class="seg_middle">
+									<div class="row">
+										<div class="col-sm-12">
+											<p>Leadership is a lot more than simply leading. It’s about influencing
+												people and making an impression across all platforms. When it comes
+												to having an online presence, we act as your image consultants and
+												help your people develop an understanding of you. After conducting
+												several surveys and a thorough analysis, we target the right
+												demographics and channel our insights into creating strategies that
+												set the tonality and position you to influence their decisions.</p>
+										</div>
+										<div class="col-sm-12">
+											<div class="more_arictle">
+												<a href="{% url 'homepage' %}">enquire now
+													<img src="{% static 'wp-content/themes/everymedia/images/arrow_right.png' %}"
+														class="img-responsive">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<div class="modal fade minpopup" id="write_to_us" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<img src="{% static 'wp-content/themes/everymedia/images/icons/cross.png' %}"
+							class="img-responsive">
+					</button>
+				</div>
+				<div role="form" class="wpcf7" id="wpcf7-f822-o1" lang="en-US" dir="ltr">
+					<div class="screen-reader-response"></div>
+					<form action="/expertise/#wpcf7-f822-o1" method="post" class="wpcf7-form contact_form_data"
+						novalidate="novalidate">
+						<div style="display: none;">
+							<input type="hidden" name="_wpcf7" value="822" />
+							<input type="hidden" name="_wpcf7_version" value="4.9" />
+							<input type="hidden" name="_wpcf7_locale" value="en_US" />
+							<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f822-o1" />
+							<input type="hidden" name="_wpcf7_container_post" value="0" />
+						</div>
+						<div class="modal-body">
+							<input type="hidden" name="expertise_dd" value=""
+								class="wpcf7-form-control wpcf7-hidden expertise_dd" />
+							<h4>write to us</h4>
+							<form class="contact_form_data">
+								<div class="form-group">
+									<span class="wpcf7-form-control-wrap expertise_first_name">
+										<input type="text" name="expertise_first_name" value="" size="40"
+											class="wpcf7-form-control wpcf7-text form-control" id="expertise_first_name"
+											aria-invalid="false" placeholder="* name" />
+									</span>
+								</div>
+								<div class="form-group">
+									<span class="wpcf7-form-control-wrap expertise_email">
+										<input type="email" name="expertise_email" value="" size="40"
+											class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email form-control"
+											id="expertise_email" aria-invalid="false" placeholder="* email" />
+									</span>
+								</div>
+								<div class="form-group">
+									<span class="wpcf7-form-control-wrap expertise_phone_number">
+										<input type="text" name="expertise_phone_number" value="" size="40"
+											maxlength="10" minlength="10"
+											class="wpcf7-form-control wpcf7-text form-control"
+											id="expertise_phone_number" aria-invalid="false"
+											placeholder="* 10 digit mobile no." />
+									</span>
+								</div>
+								<div class="form-group">
+									<div class="custom-select contact_form_dd">
+										<div class="selected">
+											<span name="con_sub_dd" id="expert_subject" class="value">select
+												subject*</span>
+											<small></small>
+										</div>
+										<div class="option_list" id="expert_subject">
+											<ul id='my_expertise_id'>
+												<li value="celebrities">celebrities</li>
+												<li value="central & state ministries">central & state ministries</li>
+												<li value="politicians">politicians</li>
+												<li value="parties">parties</li>
+											</ul>
+										</div>
+										<span id="subject_error" class="form_error expert_subject_err"
+											style="display:none;">subject is required</span>
+									</div>
+								</div>
+								<div class="wpcf7-form-control-wrap">
+									<div data-sitekey="6LcU7UEUAAAAAPm5WbNMQ0cuTfcPXxTEjGWvYqne"
+										class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"></div>
+									<noscript>
+										<div style="width: 302px; height: 422px;">
+											<div style="width: 302px; height: 422px; position: relative;">
+												<div style="width: 302px; height: 422px; position: absolute;">
+													<iframe
+														src="https://www.google.com/recaptcha/api/fallback?k=6LcU7UEUAAAAAPm5WbNMQ0cuTfcPXxTEjGWvYqne"
+														frameborder="0" scrolling="no"
+														style="width: 302px; height:422px; border-style: none;">
+													</iframe>
+												</div>
+												<div
+													style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+													<textarea id="g-recaptcha-response" name="g-recaptcha-response"
+														class="g-recaptcha-response"
+														style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
+													</textarea>
+												</div>
+											</div>
+										</div>
+									</noscript>
+								</div>
+								<div class="btn_group">
+									<input type="submit" value="submit"
+										class="wpcf7-form-control wpcf7-submit btn-success" id="btn_submit_experties" />
+								</div>
+							</form>
+							<div class="wpcf7-response-output wpcf7-display-none"></div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock content %}

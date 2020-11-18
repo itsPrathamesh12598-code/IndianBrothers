@@ -1,0 +1,231 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block meta_info %}
+	<meta name="description" content="Everymedia Technologies is proud to present a selected few client case studies. The work done by Everymedia helped these clients increase their revenue from online marketing efforts." />
+	<meta name="robots" content="index,follow" />
+	<link rel="canonical" href="{% url 'casestudies' %}" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Case Studies | Everymedia Technologies" />
+	<meta property="og:description"
+		content="Everymedia Technologies is proud to present a selected few client case studies. The work done by Everymedia helped these clients increase their revenue from online marketing efforts." />
+	<meta property="og:url" content="https://www.everymedia.world/casestudies/" />
+	<meta property="og:site_name" content="everymedia" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description"
+		content="Everymedia Technologies is proud to present a selected few client case studies. The work done by Everymedia helped these clients increase their revenue from online marketing efforts." />
+	<meta name="twitter:title" content="Case Studies | Everymedia Technologies" />
+	<script type='application/ld+json'>
+		{
+			"@context": "http:\/\/schema.org",
+			"@type": "WebSite",
+			"@id": "#website",
+			"url": "https:\/\/www.everymedia.world\/",
+			"name": "everymedia",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https:\/\/www.everymedia.world\/?s={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+		}
+	</script>
+{% endblock meta_info %}
+
+{% block content %}
+{% include 'components/header.html' %}
+<div class="em-container">
+	<section class="casestudies_main">
+		<div class="case_studies_sec cases_main inner_heading">
+			<div class="contact_form_data">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<h2>case studies</h2>
+					</div>
+					<div class="col-md-6 col-sm-6">
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="cs_data">
+				<input type="hidden" class="cs_post_count" id="hid_post_count" name="cs_post_count" value="8">
+				<div class="case_container">
+					<div class="left_case case_data" id="5564">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/1.jpeg' %}" height="200px" class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>Sudesh Berry</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="right_case case_data" id="5559">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/2.jpeg' %}" height="200px" class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>Actor</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="case_container">
+					<div class="left_case case_data" id="5543">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/3.jpeg' %}" class="img-responsive tilter__image" height="200px">
+										<figcaption class="tilter__caption">
+											<h3>Dilwale</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="right_case case_data" id="5538">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/4.jpeg' %}"
+											class="img-responsive tilter__image" height="200px">
+										<figcaption class="tilter__caption">
+											<h3>Arman Malik</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="case_container">
+					<div class="left_case case_data" id="5507">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/5.jpeg' %}"
+											class="img-responsive tilter__image" height="200px">
+										<figcaption class="tilter__caption">
+											<h3>Mr. X</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="right_case case_data" id="5500">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/6.jpeg' %}"
+											class="img-responsive tilter__image" height="200px">
+										<figcaption class="tilter__caption">
+											<h3>Hamari Aduri Kahani Movie</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="case_container">
+					<div class="left_case case_data" id="5494">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/7.jpeg' %}"
+											class="img-responsive tilter__image" height="200px">
+										<figcaption class="tilter__caption">
+											<h3>Brothers Movie</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="right_case case_data" id="4849">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/8.jpeg' %}"
+											class="img-responsive tilter__image" height="200px">
+										<figcaption class="tilter__caption">
+											<h3>Zarina Wahab</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="right_case case_data" id="4849">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/9.jpeg' %}"
+											class="img-responsive tilter__image" height="200px">
+										<figcaption class="tilter__caption">
+											<h3>Kapoor and Sons Movie</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="right_case case_data" id="4849">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/10.jpeg' %}" 
+											class="img-responsive tilter__image" height="200px">
+										<figcaption class="tilter__caption">
+											<h3>Junction Waranasi</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="right_case case_data" id="4849">
+						<a href="{% url 'homepage' %}" class="tilter tilter--1">
+							<div class="cs_details">
+								<div class="cs_pic">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/casestudies_images/11.jpeg' %}" height="200px"
+											class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>Amal Malik</h3>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="more_arictle request_demo_container case_studies_view" data-page="1" data-view_more="8">
+					<a>
+						view more
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+	</section>
+</div>
+{% endblock content %}

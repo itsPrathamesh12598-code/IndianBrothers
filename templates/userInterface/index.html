@@ -1,0 +1,404 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block meta_info %} 
+
+	<meta name="description" content="Everymedia Technologies specializes in SMO, PPC, SEM, SEO, Digital PR, Movie Marketing, Media Planning &amp; Buying, Website Designing and more updated." />
+	<meta name="robots" content="index,follow" />
+	<link rel="canonical" href="index.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title"
+		content="Everymedia is a Digital Experience Company for evolutionary brands. - PR, SMO, PPC, SEM, SEO &amp; Movie Promotion - Everymedia Technologies" />
+	<meta property="og:description"
+		content="Everymedia Technologies specializes in SMO, PPC, SEM, SEO, Digital PR, Movie Marketing, Media Planning &amp; Buying, Website Designing and more updated." />
+	<meta property="og:url" content="https://www.everymedia.world/" />
+	<meta property="og:site_name" content="everymedia" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description"
+		content="Everymedia Technologies specializes in SMO, PPC, SEM, SEO, Digital PR, Movie Marketing, Media Planning &amp; Buying, Website Designing and more updated." />
+	<meta name="twitter:title"
+		content="Everymedia is a Digital Experience Company for evolutionary brands. - PR, SMO, PPC, SEM, SEO &amp; Movie Promotion - Everymedia Technologies" />
+	<script type='application/ld+json'>
+		{
+			"@context": "http:\/\/schema.org",
+			"@type": "WebSite",
+			"@id": "#website",
+			"url": "https:\/\/www.everymedia.world\/",
+			"name": "everymedia",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https:\/\/www.everymedia.world\/?s={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+		}
+	</script>
+
+{% endblock meta_info %}
+
+{% block content %} 
+
+{% include 'components/header.html' %}
+	
+	<div class="banner">
+		<div class="banner_clip">
+			<div class="owl-carousel home_banner owl-theme common_carousel">
+				
+				<div class="item">
+					<img src="{% static 'wp-content/uploads/2017/10/banner-1.jpg' %}" class="img-responsive hidden-xs">
+					<img src="{% static 'wp-content/uploads/2017/10/mobilebanner-1.jpg' %}" class="img-responsive visible-xs">
+					<div class="banner_details">
+						<div class="banner_data">
+							<h2>We architect digital infrastructures to deliver solutions across all customer
+								connections</h2>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="{% static 'wp-content/uploads/2017/10/banner-2.jpg' %}" class="img-responsive hidden-xs">
+					<img src="{% static 'wp-content/uploads/2017/10/mobilebanner-2.jpg' %}" class="img-responsive visible-xs">
+					<div class="banner_details">
+						<div class="banner_data">
+							<h2>We aim to create a culture of innovation</h2>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="{% static 'wp-content/uploads/2017/10/03-6.jpg' %}" class="img-responsive hidden-xs">
+					<img src="{% static 'wp-content/uploads/2017/10/banner03.jpg' %}" class="img-responsive visible-xs">
+					<div class="banner_details">
+						<div class="banner_data">
+							<h2>We change the way people look at brands</h2>
+							<style type="text/css">
+								.hmbannertxt {
+									color: #FFF;
+								}
+
+								@media only screen and (max-width: 768px) {
+									.hmbannertxt {
+										color: #333;
+									}
+								}
+							</style>
+							<p class="hmbannertxt"
+								style="font-size: 24px; font-weight: bold; padding-bottom: 10px; padding-top: 10px;">
+								&nbsp;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="scrolldown">
+			<a href="#services">
+				<img src="{% static 'wp-content/themes/everymedia/images/arrow_down.png' %}" alt="">
+			</a>
+		</div>
+	</div>
+	<section class="home_main">
+		<div class="segexper_sec sec" id="services">
+			<div class="seg_data">
+				<h6><strong>Everymedia</strong> is a Digital Experience Company for evolutionary brands.</h6>
+			</div>
+			<h4>our expertise<span>&nbsp;</span></h4>
+			<p>We create work that matters to people by transforming brands, re-imagining customer experience at
+				every touch point: digital, social, virtual and physical.&nbsp;&nbsp;</p>
+			<div class="clearfix"></div>
+			<div class="seg_list">
+				<ul>
+					<li>
+						<a href="expertise.html#brands">
+							<img src="{% static 'wp-content/uploads/2017/10/brands_corporates.jpg' %}" class="img-responsive">
+							<span class="seg_details">
+								<span class="icons">
+									<img src="{% static 'wp-content/uploads/2017/10/brands_corporates_icon.png' %}" alt="">
+								</span>
+								<span class="seg_title">brands & corporates</span>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="expertise.html#entertainment">
+							<img src="{% static 'wp-content/uploads/2017/10/entertainment.jpg' %}" class="img-responsive">
+							<span class="seg_details">
+								<span class="icons">
+									<img src="{% static 'wp-content/uploads/2017/10/entertainment_icon.png' %}" alt="">
+								</span>
+								<span class="seg_title">Entertainment</span>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="expertise.html#research">
+							<img src="{% static 'wp-content/uploads/2017/10/public_research-1.jpg' %}" class="img-responsive">
+							<span class="seg_details">
+								<span class="icons">
+									<img src="{% static 'wp-content/uploads/2017/10/public_research_icon.png' %}" alt="">
+								</span>
+								<span class="seg_title">public research & politics</span>
+							</span>
+						</a>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="case_studies_sec sec" id="home_cases">
+			<h4>case studies<span></span></h4>
+			<div class="cs_data">
+				<div class="case_container ">
+					<div class="left_case case_data">
+						<div class="cs_details">
+							<div class="cs_pic">
+								<a href="casestudies/yes-foundation.html" class="tilter tilter--1">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/uploads/2017/09/thumb-1.jpg' %}"
+											class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>
+												yes foundation
+											</h3>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="right_case case_data">
+						<div class="cs_details">
+							<div class="cs_pic">
+								<a href="raymond-uco.html" class="tilter tilter--1">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/uploads/2017/09/thumb-2.jpg' %}"
+											class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>
+												raymond uco denim
+											</h3>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="case_container ">
+					<div class="left_case case_data">
+						<div class="cs_details">
+							<div class="cs_pic">
+								<a href="casestudies/parx.html" class="tilter tilter--1">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/uploads/2017/10/01_parx_thumb.jpg' %}"
+											class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>
+												Parx Hunt'17
+											</h3>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="right_case case_data">
+						<div class="cs_details">
+							<div class="cs_pic">
+								<a href="index.html" class="tilter tilter--1">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/uploads/2017/10/03.judwa_thumb.jpg' %}"
+											class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>
+												Judwaa 2
+											</h3>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="case_container ">
+					<div class="left_case case_data">
+						<div class="cs_details">
+							<div class="cs_pic">
+								<a href="index.html" class="tilter tilter--1">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/uploads/2017/12/02_hyundai-combackpedia_thumb.jpg' %}"
+											class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>
+												Hyundai Comebackpedia
+											</h3>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="right_case case_data">
+						<div class="cs_details">
+							<div class="cs_pic">
+								<a href="index.html" class="tilter tilter--1">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/uploads/2017/12/04_mard-thumb.jpg' %}"
+											class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>
+												Bas Ab Bahut Ho Gaya
+											</h3>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="case_container last">
+					<div class="left_case case_data">
+						<div class="cs_details">
+							<div class="cs_pic">
+								<a href="index.html" class="tilter tilter--1">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/uploads/2017/12/05_btvi-thumb.jpg' %}"
+											class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>
+												BTVI Brand Campaign 2017
+											</h3>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="right_case case_data">
+						<div class="cs_details">
+							<div class="cs_pic">
+								<a href="index.html" class="tilter tilter--1">
+									<figure class="tilter__figure">
+										<img src="{% static 'wp-content/uploads/2017/12/11_pfl_thumb.jpg' %}"
+											class="img-responsive tilter__image">
+										<figcaption class="tilter__caption">
+											<h3>
+												PFL - VFX Campaign
+											</h3>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="more_arictle">
+					<a href="casestudies.html">
+						more case studies
+						<img src="{% static 'wp-content/themes/everymedia/images/arrow_right.png' %}" class="img-responsive">
+					</a>
+				</div>
+			</div>
+	</section>
+	<div class="blog_sec sec" id="home_blog">
+		<h4>
+			news
+			<span></span>
+		</h4>
+		<div class="blog_container">
+			<ul>
+				<li class="equal">
+					<div class="blog_pic">
+						<img class="media-object img-responsive" src="{% static 'wp-content/uploads/2020/05/01-2.jpg' %}">
+					</div>
+					<div class="blog_info">
+						<h6>
+							<a href="https://epaper.newindianexpress.com/m5/2678288/The-New-Indian-Express-Chennai/19-05-2020#page/16/1" target="_blank">
+								New IndianExpress.com <span>May 19, 2020</span>
+							</a>
+						</h6>
+						<h5>
+							<a href="https://epaper.newindianexpress.com/m5/2678288/The-New-Indian-Express-Chennai/19-05-2020#page/16/1" target="_blank">
+								The New Indian-Express Chennai </a>
+						</h5>
+						<p>
+							<a href="https://epaper.newindianexpress.com/m5/2678288/The-New-Indian-Express-Chennai/19-05-2020#page/16/1" target="_blank">
+							</a>
+						</p>
+					</div>
+				</li>
+				<li class="equal">
+					<div class="blog_pic">
+						<img class="media-object img-responsive" src="{% static 'wp-content/uploads/2020/04/thumb_raisevoiceagainst.jpg' %}">
+					</div>
+					<div class="blog_info">
+						<h6>
+							<a href="https://www.socialsamosa.com/2020/04/shadow-pandemic-awareness-campaign/" target="_blank">
+								Social Samosa <span>Apr 29, 2020</span>
+							</a>
+						</h6>
+						<h5>
+							<a href="https://www.socialsamosa.com/2020/04/shadow-pandemic-awareness-campaign/" target="_blank">
+								Akshara Centre </a>
+						</h5>
+						<p>
+							<a href="https://www.socialsamosa.com/2020/04/shadow-pandemic-awareness-campaign/" target="_blank">
+							</a>
+						</p>
+					</div>
+				</li>
+				<li class="equal">
+					<div class="blog_pic">
+						<img class="media-object img-responsive"
+							src="{% static 'wp-content/uploads/2020/04/thumb_tseries16-oct-07-700x394.jpg' %}">
+					</div>
+					<div class="blog_info">
+						<h6>
+							<a href="https://www.ndtv.com/entertainment/a-day-out-with-dhvani-bhanushali-at-kidzania-mumbai-2175826" target="_blank">
+								ndtv.com <span>Apr 29, 2020</span>
+							</a>
+						</h6>
+						<h5>
+							<a href="https://www.ndtv.com/entertainment/a-day-out-with-dhvani-bhanushali-at-kidzania-mumbai-2175826" target="_blank">
+								Dhavani Bhanushali at Kidzania </a>
+						</h5>
+						<p>
+							<a href="https://www.ndtv.com/entertainment/a-day-out-with-dhvani-bhanushali-at-kidzania-mumbai-2175826" target="_blank">
+							</a>
+						</p>
+					</div>
+				</li>
+				<li class="equal">
+					<div class="blog_pic">
+						<img class="media-object img-responsive"
+							src="{% static 'wp-content/uploads/2020/04/thumb_songchallenge.jpg' %}">
+					</div>
+					<div class="blog_info">
+						<h6>
+							<a href="http://www.socialsamosa.com/2020/03/movie-marketing-are-song-challenges-still-relevant/" target="_blank">
+								Social Samosa <span>Apr 29, 2020</span>
+							</a>
+						</h6>
+						<h5>
+							<a href="http://www.socialsamosa.com/2020/03/movie-marketing-are-song-challenges-still-relevant/" target="_blank">
+								Movie Marketing Song Challenge </a>
+						</h5>
+						<p>
+							<a href="http://www.socialsamosa.com/2020/03/movie-marketing-are-song-challenges-still-relevant/" target="_blank">
+							</a>
+						</p>
+					</div>
+				</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+		<div class="more_arictle">
+			<a href="index.html">
+				more news
+				<img src="{% static 'wp-content/themes/everymedia/images/arrow_right.png' %}" class="img-responsive">
+			</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+{% endblock content %}

@@ -1,0 +1,64 @@
+{% load static %}
+<div class="em-container">
+    <header class="navbar-fixed-top">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <div id="nav-icon1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <a class="navbar-brand" href="{% url 'homepage' %}">
+                    <img src="{% static 'wp-content/themes/everymedia/images/logo_.gif' %}" class="img-responsive">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="menu-primary-menu-container">
+                    <ul id="menu-primary-menu" class="nav navbar-nav navbar-right">
+                        <li id="menu-item-1688"
+                            class="home menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-1688 active ">
+                            <a href="{% url 'homepage' %}"><strong></strong><span>Home</span></a></li>
+                        <li id="menu-item-41"
+                            class="about_us menu-item menu-item-type-post_type menu-item-object-page menu-item-41">
+                            <a href="{% url 'about' %}"><strong></strong><span>about us</span></a></li>
+                        <li id="menu-item-111"
+                            class="services menu-item menu-item-type-post_type menu-item-object-page menu-item-111">
+                            <a href="{% url 'services' %}"><strong></strong><span>Services</span></a></li>
+                        <li id="menu-item-112"
+                            class="expertise menu-item menu-item-type-post_type menu-item-object-page menu-item-112">
+                            <a href="{% url 'expertise' %}"><strong></strong><span>expertise</span></a></li>
+                        <li id="menu-item-177"
+                            class="case_studies menu-item menu-item-type-post_type menu-item-object-page menu-item-177">
+                            <a href="{% url 'casestudies' %}"><strong></strong><span>case studies</span></a></li>
+                        <li id="menu-item-183"
+                            class="eminsights menu-item menu-item-type-post_type menu-item-object-page menu-item-183">
+                            <a href="{% url 'insights' %}"><strong></strong><span>emInsights</span></a></li>
+                        <li id="menu-item-4934"
+                            class="careers menu-item menu-item-type-custom menu-item-object-custom menu-item-4934">
+                            <a href="{% url 'careers' %}"><strong></strong><span>careers</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search_box">
+                <div class="search_relative">
+                    <div class="serach-item">
+                        <form method="post" id="searchform" action="index.html">
+                            <div class="form-group">
+                                <input type="text" class="field form-control" name="s" id="s" placeholder="Search"
+                                    maxlength="100">
+                            </div>
+                            <input type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="" />
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <a href="javascript:void(0);" class="search-close">&times;</a>
+                        </form>
+                    </div>
+                </div>
+                <a href="javascript:void(0);" class="serach_open"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+        </nav>
+    <div class="clearfix"></div>
+</header>
+<div class="hidden_nav"></div>
